@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500&display=swap');
+
+body{
+    color: #777;
+    line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: 600;
+    color: #222;
+}
+
+a{
+    color: #222;
+    text-decoration: none;
+    transition: all 0.4s;
+}
+
+a:hover{
+    color: orange;
+}
+
+.btn{
+    border-radius: 4;
+    padding: 12px 30px;
+}
+
+.btn-brand{
+    color: white;
+    font-weight: 500;
+    border-color: orange;
+    background-color: orange;
+}
+
+.btn-brand:hover{
+    border-color: orange;
+}
+
+
+section{
+    padding-top: 80px;
+    
+}
+
+.shadow-on-hover{
+    transition: all 0.3s;
+}
+
+.shadow-on-hover:hover{
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* Slider */
+.slide-1{
+    background: linear-gradient(#00000098, #00000098),url('./images/cover1.jpeg');
+}
+
+.slide-2{
+    background: linear-gradient(#00000098, #00000098),url('./images/cover2.jpeg');
+}
+
+.bg-cover{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Intro text */
+.intro-text{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.intro-text p{
+    max-width: 500px;
+    margin: 16px auto 0 auto;
+}
+
+/* Search bar */
+.h-search-form{
+    width: 100%;
+    position: relative;
+}
+
+.h-search-form input{
+    width: 75%;
+    padding: 0 30px;
+    border-radius: 10px;
+    border: none;
+    height: 50px;
+}
+
+.h-search-form button{
+    right: 10px;
+}
+
+
+/* Menú */
+#menu .nav-pills .nav-link{
+    background-color: white;
+    margin-left: 8px;
+    margin-right: 8px;
+    color: #222;
+}
+
+#menu .nav-pills .nav-link.active{
+    background-color: orange;
+    color: white;
+}
+
+/* Receta */
+#receta{
+    background: linear-gradient(#00000098, #00000098);
+}
+
+/* Mapa */
+#map {
+	height: 500px;
+	width: 100%;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

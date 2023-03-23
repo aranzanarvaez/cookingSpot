@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500&display=swap');
+
+body{
+    color: #777;
+    line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: 600;
+    color: #222;
+}
+
+a{
+    color: #222;
+    text-decoration: none;
+    transition: all 0.4s;
+}
+
+a:hover{
+    color: orange;
+}
+
+section{
+    padding-top: 120px;
+}
+
+.shadow-on-hover{
+    transition: all 0.3s;
+}
+
+.shadow-on-hover:hover{
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* Slider */
+.slide-1{
+    background: linear-gradient(#00000098, #00000098), url(../images/cover1.jpeg);
+}
+
+.slide-2{
+    background: linear-gradient(#00000098, #00000098), url(../images/cover2.jpeg);
+}
+
+.bg-cover{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Intro text */
+.intro-text{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.intro-text p{
+    max-width: 500px;
+    margin: 16px auto 0 auto;
+}
+
+/* Menú */
+#menu .nav-pills .nav-link{
+    background-color: white;
+    margin-left: 8px;
+    margin-right: 8px;
+    color: #222;
+}
+
+#menu .nav-pills .nav-link.active{
+    background-color: orange;
+    color: white;
+}
