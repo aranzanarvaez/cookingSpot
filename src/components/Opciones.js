@@ -45,7 +45,7 @@ function Opciones() {
         <h3>Ingredients:</h3>
         <ul>
           {selectedRecipe.extendedIngredients.map((ingredient) => (
-            <li key={ingredient.id}>{ingredient.name}</li>
+            <li key={ingredient.id}>{ingredient.name}( { ingredient.amount}{ ingredient.unit})</li>
             
           ))}
         </ul>
